@@ -204,4 +204,5 @@ Feedstock Maintainers
 =====================
 
 * [@Xkhanh720](https://github.com/Xkhanh720/)
+* [@duyhieubui](https://github.com/duyhieubui/)
 
