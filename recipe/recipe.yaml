@@ -12,7 +12,7 @@ source:
   sha256: fe6e937f77f4c50d72500312f439a66b5f4560ab687cbc4469c3814bbdbb0ec9
 
 build:
-  number: 0
+  number: 1
   skip:
     # linux-only for now: build script only handles the unix qmake build
     - win
