@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.30.12"
+  version: "0.30.13"
 
 package:
   name: klayout
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/KLayout/klayout/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: fa747d9a4c216d0645587e05df365d5c22f73609ab98b34471372c711d8c2b75
+  sha256: fe6e937f77f4c50d72500312f439a66b5f4560ab687cbc4469c3814bbdbb0ec9
 
 build:
-  number: 1
+  number: 0
   skip:
     # linux-only for now: build script only handles the unix qmake build
     - win
