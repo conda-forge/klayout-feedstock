@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.30.13"
+  version: "0.30.14-1"
 
 package:
   name: klayout
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/KLayout/klayout/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: fe6e937f77f4c50d72500312f439a66b5f4560ab687cbc4469c3814bbdbb0ec9
+  sha256: 98bebc1a6595e92bdf5fdc1ae7fa3c61f8141467fd9dba2db3acb01bcce59319
 
 build:
-  number: 1
+  number: 0
   skip:
     # osx is not yet supported
     - osx
