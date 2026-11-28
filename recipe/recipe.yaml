@@ -12,7 +12,7 @@ source:
   sha256: 46feb5fb47a18c7325c5af86d0be044e06c46d3b71c88c1687272d3347a75a4e
 
 build:
-  number: 0
+  number: 1
   skip:
     # osx is not yet supported
     - osx
